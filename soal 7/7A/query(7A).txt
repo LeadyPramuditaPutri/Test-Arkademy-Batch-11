@@ -1,0 +1,2 @@
+SELECT nama.name AS Name , hobi.name AS Hobby, kategori.name AS Category from nama, hobi, kategori
+where nama.id_hobby=hobi.id and hobi.id_category= kategori.id
